@@ -1,0 +1,35 @@
+{
+  "name": "menatwork/contao-basic-bundle",
+  "type": "contao-bundle",
+  "description": "A dummy bundle that requires some needlful extensions"
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "David Maack",
+      "email": "maack@men-at-work.de",
+      "homepage": "http://www.men-at-work.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "contao/core-bundle": "^4.4",
+    "terminal42/notification_center": "^1.5",
+    "backboneit/contao-navigation": "^1.8",
+    "jrgregory/m17-sticky-backend-footer": "^2.0",
+    "codefog/contao-cookiebar": "^2.1",
+    "terminal42/contao-inserttags": "^1.9",
+    "madeyourday/contao-rocksolid-custom-elements": "^2.2",
+    "menatwork/semantic_html5": "^2.0",
+    "terminal42/contao-ce-access": "^2.0",
+    "menatwork/contao-syncaccclient-bundle": "^4.0",
+    "hofff/contao-opengraph": "^3.2"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.0"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  }
+}
