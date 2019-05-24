@@ -1,7 +1,7 @@
 {
   "name": "menatwork/contao-basic-bundle",
   "type": "contao-bundle",
-  "description": "A dummy bundle that requires some needlful extensions"
+  "description": "A dummy bundle that requires some needlful extensions",
   "license": "LGPL-3.0-or-later",
   "authors": [
     {
